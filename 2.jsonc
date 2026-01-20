@@ -1,0 +1,87 @@
+// Inspired by Catnap
+
+/*
+colors:
+    31 red
+    32 green
+    33 yellow
+    34 blue
+    35 orange
+    36 light blue?
+    37 white
+*/
+
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "file",
+        "source": "~/.config/fastfetch/appple.txt",
+        "color": {
+            "1":"green",
+            "2":"yellow",
+            "3":"red",
+            "4":"blue"
+        },
+        "padding": {
+            "top": 2,
+            "left": 2
+        }
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "key": "╭────────────╮"
+        },
+        {
+            "type": "custom",
+            "key": "│{#36}  User     {#keys}│"
+        },
+        {
+            "type": "os",
+            "key": "│{#32}  OS       {#keys}│"
+        },
+        {
+            "type": "packages",
+            "key": "│{#32} 󰏖 Packages {#keys}│"
+        },
+        {
+            "type": "terminal",
+            "key": "│{#33}  Term     {#keys}│"
+        },
+        {
+            "type": "cpu",
+            "key": "│{#31}  CPU      {#keys}│",
+            "format": "{1} ({3} cores)"
+        },
+        {
+            "type": "gpu",
+            "key": "│{#31} 󰢮 GPU      {#keys}│",
+            "format": "{2}"
+        },
+        {
+            "type": "disk",
+            "key": "│{#31} 󰉉 Disk     {#keys}│",
+            "format": "{1} / {2} ({3})"
+        },
+        {
+            "type": "media",
+            "key": "│{#34}  Playing  {#keys}│"
+        },
+        {
+            "type": "custom",
+            "key": "├────────────┤"
+        },
+        {
+            "type": "colors",
+            "key": "│{#37}  Colors   {#keys}│",
+            "symbol": "circle"
+        },
+        {
+            "type": "custom",
+            "key": "╰────────────╯"
+        }
+    ]
+}

@@ -1,0 +1,184 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "~/.config/fastfetch/macintosh.txt",
+    "type": "file",
+    "color": {
+      "1":"yellow",
+      "2":"green",
+      "3":"white"
+    },
+    "padding": {
+      "top": 0,
+      "left": 2,
+      "right": 4
+    }
+  },
+  "display": {
+    "bar": {
+      "char": {
+        "total": "─"
+      },
+      "width": 10
+    },
+    "percent": {
+      "type": 3,
+      "ndigits": 2
+    },
+    "key": {
+      "width": 16
+    },
+    "color": "blink_",
+    "separator": ""
+  },
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "key": "  ",
+      "keyWidth": 4,
+      "keyColor": "cyan",
+      "format": "{#36}{1}@{2}"
+    },
+    {
+      "type": "datetime",
+      "key": " ",
+      "format": " {#white}󰃮 {1}-{4}-{10} {14}:{18}:{20} ({22})"
+    },
+    "break",
+    {
+      "type": "custom",
+      "key": "╭─System─────┬──────────────────────────────────────╮",
+      "keyColor": "green"
+    },
+    {
+      "type": "host",
+      "key": "├╴ PC       │",
+      "keyColor": "green"
+    },
+    {
+      "type": "os",
+      "key": "├╴ OS       │",
+      "keyColor": "green"
+    },
+    {
+      "type": "wm",
+      "key": "├╴ WM       │",
+      "keyColor": "green",
+      "format": "Rectangle 0.93"
+    },
+    {
+      "type": "packages",
+      "key": "├╴󰏖 Packages │",
+      "keyColor": "green"
+    },
+    {
+      "type": "uptime",
+      "key": "├╴󰥔 Uptime   │",
+      "keyColor": "green"
+    },
+    {
+      "type": "custom",
+      "key": "╰────────────┴──────────────────────────────────────╯",
+      "keyColor": "green"
+    },
+    {
+      "type": "custom",
+      "key": "╭─Terminal───┬────────────────────────────────────────╮",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "shell",
+      "key": "├╴ Shell    │",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "terminal",
+      "key": "├╴ Terminal │",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "terminalfont",
+      "key": "├╴ Font     │",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "terminalsize",
+      "key": "├╴󰘖 Size     │",
+      "keyColor": "yellow",
+      "format": "{1} colums × {2} rows ({3}px × {4}px)"
+    },
+    {
+      "type": "custom",
+      "key": "╰────────────┴────────────────────────────────────────╯",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "custom",
+      "key": "╭─Hardware───┬─────────────────────────────────────────────────╮",
+      "keyColor": "red"
+    },
+    {
+      "type": "display",
+      "key": "├╴󰍹 Display  │",
+      "keyColor": "red",
+      "format": "{1}×{2}, {3}Hz"
+    },
+    {
+      "type": "cpu",
+      "key": "├╴ CPU      │",
+      "keyColor": "red",
+      "format": "{1} [{3} cores]"
+    },
+    {
+      "type": "gpu",
+      "key": "├╴󰢮 GPU      │",
+      "keyColor": "red"
+    },
+    {
+      "type": "memory",
+      "key": "├╴ RAM      │",
+      "keyColor": "red"
+    },
+    {
+      "type": "disk",
+      "key": "├╴ Disk     │",
+      "keyColor": "red",
+      "format": "{13} {1} / {2} ({3})"
+    },
+    {
+      "type": "battery",
+      "key": "├╴ Battery  │",
+      "keyColor": "red",
+      "format": "{10} {4} ({5})"
+    },
+    {
+      "type": "custom",
+      "key": "╰────────────┴─────────────────────────────────────────────────╯",
+      "keyColor": "red"
+    },
+    {
+      "type": "colors",
+      "key": "╭─Media──────┬──────────────────────────────────────────────╮",
+      "keyColor": "blue",
+      "symbol": "diamond"
+    },
+    {
+      "type": "media",
+      "key": "├╴ Playing  │",
+      "keyColor": "blue",
+      "format": "\"{1}\" - {#1}{3}{#}"
+    },
+    {
+      "type": "sound",
+      "key": "├╴󰋋 Sound    │",
+      "keyColor": "blue",
+      "format": "{2:20}{5} {3}"
+    },
+    {
+      "type": "custom",
+      "key": "╰────────────┴──────────────────────────────────────────────╯",
+      "keyColor": "blue"
+    }
+  ]
+}
