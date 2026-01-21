@@ -4,7 +4,7 @@ All the files are just `number.jsonc`, but some will also have a text file that 
 
 ## Usage
 Check out the [Fastfetch repo](https://github.com/fastfetch-cli/fastfetch) for installation instructions.<br />
-The [Wiki](https://github.com/fastfetch-cli/fastfetch/wiki/Configuration) provides in-depth instructions for configuration and generating a config file.
+The [Wiki](https://github.com/fastfetch-cli/fastfetch/wiki/Configuration) provides in-depth docs for configuration and instructions to generate a config file.
 
 ## Screenshots
 ### `1.jsonc` and `macintosh.txt`
