@@ -6,10 +6,11 @@
     "color": {
       "1":"yellow",
       "2":"green",
-      "3":"white"
+      "3":"white",
+      "4":"black"
     },
     "padding": {
-      "top": 0,
+      "top": 2,
       "left": 2,
       "right": 4
     }
