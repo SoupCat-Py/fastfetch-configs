@@ -123,7 +123,7 @@
       "type": "display",
       "key": "├╴󰍹 Display  │",
       "keyColor": "red",
-      "format": "{1}×{2}, {3}Hz"
+      "format": "{1}×{2}, {3}Hz [{7}]"
     },
     {
       "type": "cpu",
