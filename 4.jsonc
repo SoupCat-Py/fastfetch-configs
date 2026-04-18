@@ -4,7 +4,8 @@
     "source": "android_small",
     "position": "top",
     "padding": {
-      "left": 8
+      "left": 4,
+      "top": 4
     }
   },
   "display": {
@@ -19,63 +20,80 @@
       "ndigits": 2
     },
     "key": {
-      "width": 10
+      "width": 12
     },
     "separator": ""
   },
   "modules": [
     {
       "type": "custom",
-      "key": "╭───────────────────╮"
+      "key": "╭───────────────────╮",
+      "keyColor": "green"
     },
     {
       "type": "title",
-      "format": "│ u0_a388@localhost │"
+      "format": "{#10}│ u0_a388@localhost │{#}",
+      "outputColor": "green"
     },
     {
       "type": "custom",
-      "key": "╰───────────────────╯"
+      "key": "╰───────────────────╯",
+      "keyColor": "green"
     },
     "break",
     {
+      "type": "custom",
+      "key": "╭── system ──────",
+      "keyColor": "green"
+    },
+    {
       "type": "os",
-      "key": "OS"
+      "key": "├ OS"
     },
     {
       "type": "host",
-      "key": "Device"
+      "key": "├ Device"
     },
     {
       "type": "shell",
-      "key": "Shell"
+      "key": "├ Shell"
     },
     {
       "type": "terminal",
-      "key": "Term"
+      "key": "╰ Term"
     },
     "break",
     {
+      "type": "custom",
+      "key": "╭── hardware ────┄",
+      "keyColor": "green"
+    },
+    {
       "type": "cpu",
-      "key": "CPU"
+      "key": "│ CPU"
     },
     {
       "type": "gpu",
-      "key": "GPU"
+      "key": "│ GPU"
     },
     {
       "type": "memory",
-      "key": "RAM",
+      "key": "│ RAM",
       "format": "{1} / {2} ({3})"
     },
     {
       "type": "disk",
-      "key": "({1})",
+      "key": "│ ({1})",
       "format": "{13} {1} / {2} ({3})"
     },
     {
       "type": "display",
-      "key": "Display",
+      "key": "│ Display",
       "format": "{1}×{2}, {3}Hz [{7}]"
+    },
+    {
+      "type": "custom",
+      "key": "╰─┄"
     },
     "break",
     {
