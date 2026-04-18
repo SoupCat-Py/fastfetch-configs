@@ -14,4 +14,7 @@ The [Wiki](https://github.com/fastfetch-cli/fastfetch/wiki/Configuration) provid
 <img width="609" height="240" alt="Screenshot 2026-01-20 at 18 30 53" src="https://github.com/user-attachments/assets/4e532a8e-b1cf-46c4-b3ab-617b296f55b1" /><br/>
 ### `3.jsonc` and `cachy.png`<br/>
 (not all terminals support images)
-<img width="842" height="262" alt="Screenshot 2026-03-27 19-54-30" src="https://github.com/user-attachments/assets/839da7b9-689b-4537-86ed-4893fc269261" />
+<img width="842" height="262" alt="Screenshot 2026-03-27 19-54-30" src="https://github.com/user-attachments/assets/839da7b9-689b-4537-86ed-4893fc269261" /><br/>
+### `4.jsonc`<br/>
+(I'm using Termux in this screenshot)
+<img width="452" height="557" alt="Screenshot_20260418-133723" src="https://github.com/user-attachments/assets/df7a46a8-563e-4a2c-9330-a16ece86bec0" />
