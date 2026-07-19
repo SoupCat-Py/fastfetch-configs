@@ -25,5 +25,5 @@ I recommend setting an alias for this command in your shell to make things easie
 > Note that not all terminals support images (I'm using Kitty)
 > <img width="842" height="262" alt="Screenshot 2026-03-27 19-54-30" src="https://github.com/user-attachments/assets/839da7b9-689b-4537-86ed-4893fc269261" /><br/>
 ### `android.jsonc`<br/>
-> I'm using Termux in this screenshot
+> I'm using Termux in this screenshot<br/>
 > <img width="452" height="557" alt="Screenshot_20260418-133723" src="https://github.com/user-attachments/assets/df7a46a8-563e-4a2c-9330-a16ece86bec0" />
